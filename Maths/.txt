@@ -1,0 +1,1 @@
+HCF/GCD of a & b -> Minimum + ve value of equation ax + yb,where x & y are integers
