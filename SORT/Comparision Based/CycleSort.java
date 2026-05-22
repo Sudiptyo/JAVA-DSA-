@@ -1,5 +1,5 @@
 
-class Search {
+class Sort {
 
     public void Display(int[] a) {
         System.out.print("Sorted Array: ");
@@ -35,7 +35,7 @@ public class CycleSort {
 
         int[] a = { 5, 4, 3, 2, 1 };
 
-        Search s = new Search();
+        Sort s = new Sort();
         s.cycleSort(a);
         s.Display(a);
     }
