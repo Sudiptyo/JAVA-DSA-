@@ -1,10 +1,11 @@
 
-class Search {
+class Sort {
 
     public void Display(int[] a) {
         System.out.print("Sorted Array: ");
-        for (int i = 0; i < a.length; i++) {
-            System.out.printf("%d ", a[i]);
+
+        for (int val : a) {
+            System.out.printf("%d ", val);
         }
     }
 
@@ -29,10 +30,10 @@ class Search {
 
 public class BubbleSort {
     public static void main(String[] args) {
-        
+
         int[] a = { 5, 4, 3, 2, 1 };
 
-        Search s = new Search();
+        Sort s = new Sort();
         s.bubbleSort(a);
         s.Display(a);
 

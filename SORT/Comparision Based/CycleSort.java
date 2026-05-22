@@ -3,8 +3,9 @@ class Search {
 
     public void Display(int[] a) {
         System.out.print("Sorted Array: ");
-        for (int i = 0; i < a.length; i++) {
-            System.out.printf("%d ", a[i]);
+
+        for (int val : a) {
+            System.out.printf("%d ", val);
         }
     }
 
@@ -32,7 +33,7 @@ public class CycleSort {
 
     public static void main(String[] args) {
 
-        int[] a = { 6, 5, 4, 3, 2, 1 };
+        int[] a = { 5, 4, 3, 2, 1 };
 
         Search s = new Search();
         s.cycleSort(a);
